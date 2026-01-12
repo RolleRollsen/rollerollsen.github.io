@@ -1,0 +1,32 @@
+<section id='experience' class='section experience'>
+	<div class='container'>
+		<h2 class='section-title fade-in' data-lang='de'>{{ site.data.de.ui.experience_title }}</h2>
+		<h2 class='section-title fade-in' data-lang='en' style='display: none;'>{{ site.data.en.ui.experience_title }}</h2>
+
+		<div class='timeline'>
+			{% for item in site.data.de.experience %}
+			<div class='timeline-item fade-in' data-lang='de'>
+				<div class='timeline-marker'></div>
+				<div class='timeline-content'>
+					<h3>{{ item.role }}</h3>
+					<h4>{{ item.company }}</h4>
+					<p class='period'>{{ item.period }}</p>
+					<p>{{ item.description }}</p>
+				</div>
+			</div>
+			{% endfor %}
+
+			{% for item in site.data.en.experience %}
+			<div class='timeline-item fade-in' data-lang='en' style='display: none;'>
+				<div class='timeline-marker'></div>
+				<div class='timeline-content'>
+					<h3>{{ item.role }}</h3>
+					<h4>{{ item.company }}</h4>
+					<p class='period'>{{ item.period }}</p>
+					<p>{{ item.description }}</p>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

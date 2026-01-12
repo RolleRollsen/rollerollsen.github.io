@@ -1,0 +1,42 @@
+<section id='about' class='section about'>
+	<div class='container'>
+		<h2 class='section-title fade-in' data-lang='de'>{{ site.data.de.ui.about_title }}</h2>
+		<h2 class='section-title fade-in' data-lang='en' style='display: none;'>{{ site.data.en.ui.about_title }}</h2>
+
+		<div class='about-content'>
+			<div class='about-text fade-in' data-lang='de'>
+				<p>{{ site.data.de.ui.about_text }}</p>
+			</div>
+			<div class='about-text fade-in' data-lang='en' style='display: none;'>
+				<p>{{ site.data.en.ui.about_text }}</p>
+			</div>
+
+			<div class='skills'>
+				<h3 class='fade-in' data-lang='de'>{{ site.data.de.ui.skills_title }}</h3>
+				<h3 class='fade-in' data-lang='en' style='display: none;'>{{ site.data.en.ui.skills_title }}</h3>
+
+				{% for category in site.data.de.skills %}
+				<div class='skill-category fade-in' data-lang='de'>
+					<h4>{{ category.category }}</h4>
+					<div class='skill-tags'>
+						{% for skill in category.items %}
+						<span class='skill-tag'>{{ skill }}</span>
+						{% endfor %}
+					</div>
+				</div>
+				{% endfor %}
+
+				{% for category in site.data.en.skills %}
+				<div class='skill-category fade-in' data-lang='en' style='display: none;'>
+					<h4>{{ category.category }}</h4>
+					<div class='skill-tags'>
+						{% for skill in category.items %}
+						<span class='skill-tag'>{{ skill }}</span>
+						{% endfor %}
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>

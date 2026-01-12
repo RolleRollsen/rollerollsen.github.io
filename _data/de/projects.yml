@@ -1,0 +1,29 @@
+- title: 3D-Druck Projekt 1
+  description: Beschreibung deines 3D-Druck Projekts. Welches Problem löst es? Welche Drucktechnik wurde verwendet?
+  tech:
+    - FDM-Druck
+    - Fusion 360
+    - PrusaSlicer
+  github: https://github.com/yourusername/3d-print-project1
+  demo: null
+  featured: true
+
+- title: Automatisierungsprojekt
+  description: Arduino/ESP32 basiertes Projekt zur Automatisierung. Beschreibe Hardware, Sensoren und Software.
+  tech:
+    - Arduino
+    - C++
+    - Python
+  github: https://github.com/yourusername/automation-project
+  demo: null
+  featured: true
+
+- title: CAD-Konstruktion
+  description: Mechanisches Designprojekt mit CAD. Beschreibe die Konstruktion, Anforderungen und Umsetzung.
+  tech:
+    - SolidWorks
+    - FEM-Analyse
+    - Technische Zeichnungen
+  github: https://github.com/yourusername/cad-project
+  demo: null
+  featured: false

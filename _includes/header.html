@@ -1,0 +1,29 @@
+<header class='hero'>
+	<nav class='nav'>
+		<div class='nav-container'>
+			<div class='nav-links'>
+				<a href='#projects' data-lang='de'>Projekte</a>
+				<a href='#projects' data-lang='en' style='display: none;'>Projects</a>
+				<a href='#about' data-lang='de'>Über mich</a>
+				<a href='#about' data-lang='en' style='display: none;'>About</a>
+				<a href='#experience' data-lang='de'>Erfahrung</a>
+				<a href='#experience' data-lang='en' style='display: none;'>Experience</a>
+				<a href='#contact' data-lang='de'>Kontakt</a>
+				<a href='#contact' data-lang='en' style='display: none;'>Contact</a>
+			</div>
+			<button class='lang-toggle' id='langToggle' aria-label='Toggle language'>
+				<span class='lang-option' data-lang-option='de'>DE</span>
+				<span class='lang-separator'>/</span>
+				<span class='lang-option' data-lang-option='en'>EN</span>
+			</button>
+		</div>
+	</nav>
+
+	<div class='hero-content'>
+		<h1 class='fade-in'>{{ site.author.name }}</h1>
+		<p class='tagline fade-in' data-lang='de'>{{ site.data.de.ui.tagline }}</p>
+		<p class='tagline fade-in' data-lang='en' style='display: none;'>{{ site.data.en.ui.tagline }}</p>
+		<a href='#projects' class='cta-button fade-in' data-lang='de'>{{ site.data.de.ui.cta }}</a>
+		<a href='#projects' class='cta-button fade-in' data-lang='en' style='display: none;'>{{ site.data.en.ui.cta }}</a>
+	</div>
+</header>
