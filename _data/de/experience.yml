@@ -1,14 +1,19 @@
-- company: Firma / Organisation
-  role: Maschinenbauingenieur
-  period: Jan 2024 - Heute
-  description: Entwicklung mechanischer Komponenten und Systeme. CAD-Konstruktion, FEM-Analyse und Prototyping mit 3D-Druck. Automatisierung von Fertigungsprozessen.
+- company: Kontron eSystems GmbH (Leipzig)
+  role: Prüftechnologe/Prozessingenieur
+  period: seit Dez 2024
+  description: Testautomatisierung Funktionstests und End-of-Line-Tests, OpenTap, C#, Projektbearbeitung
 
-- company: Vorheriges Unternehmen
-  role: Entwicklungsingenieur
-  period: Jun 2022 - Dez 2023
-  description: Produktentwicklung von der Konzeption bis zur Serienreife. Integration von Mikrocontrollern und Sensoren. Technische Dokumentation und Qualitätssicherung.
+- company: Weiterbildung
+  role: Software Entwickler Data Science und Big Data
+  period: Apr 2024 - Aug 2024
+  description: Python, Data Science, Machine Learning, Data Engineering, Software Engineering
 
-- company: Hochschule / Universität
-  role: Bachelor/Master Maschinenbau
-  period: Sep 2018 - Mai 2022
-  description: Studium Maschinenbau mit Schwerpunkt Konstruktion und Automatisierung. Abschlussarbeit im Bereich 3D-Druck oder Robotik.
+- company: Technische Universität Bergakademie Freiberg
+  role: Wissenschaftlicher Mitarbeiter
+  period: Aug 2021 - Jan 2024
+  description: ZIM-Projekt TurbidEye&colon; KI Mikroplastikerkennung; Kalibration von Multikamerasystemen für 3D-PTV-Messungen, Auswertung Strömungsdaten (POD/DMD), Python, Hardwarenahe Programmierung (Arduino, ESP, C/C++)
+
+- company: Technische Universität Bergakademie Freiberg
+  role: Dipl.-Ing. Maschinenbau
+  period: Okt 2015 - Jul 2021
+  description: Studium Maschinenbau mit Schwerpunkt Elektromobilität & Konstruktionstechnik. Diplomarbeit im Bereich Strömungsforschung&colon; Kalibration von Multikamerasystemen, photogrammetrische Messmethoden und Datenauswertung, Matlab. StuHi&colon; Hard- & Softwareentwicklung für einen kompakten Messaufbau für pyroelektrische Polymere, digitale Holographie.

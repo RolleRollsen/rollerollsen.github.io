@@ -1,4 +1,4 @@
-- title: 3D Printing Project 1
+- title: 3D Printing Project 1 - Catapult; 3D Printing Project 2 - Darts Ring
   description: Description of your 3D printing project. What problem does it solve? Which printing technique was used?
   detailed_description: Detailed project description. Explain the motivation, development process, and special challenges. What were the technical requirements? How was the problem solved?
   tech:
@@ -13,8 +13,8 @@
   demo: null
   featured: true
 
-- title: Automation Project
-  description: Arduino/ESP32 based automation project. Describe hardware, sensors, and software implementation.
+- title: Wireless Data Acquisition
+  description: Arduino/ESP32 based automation project. Describe hardware, sensors, and software implementation. ESP-Now.
   detailed_description: Comprehensive description of the automation project. What hardware was used? How do the components communicate? Which sensors collect data? How is control implemented?
   tech:
     - Arduino

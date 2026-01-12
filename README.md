@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A bilingual (German/English) portfolio site built with Jekyll for GitHub Pages. Features a dark theme, smooth animations, and responsive design.
+A bilingual (German/English) portfolio site built with Claude Code and Jekyll for GitHub Pages. Features a dark theme, smooth animations, and responsive design.
 
 ## Features
 
@@ -13,8 +13,6 @@ A bilingual (German/English) portfolio site built with Jekyll for GitHub Pages. 
 
 ## Local Development
 
-### Option 1: Docker (Recommended)
-
 **Prerequisites**: Docker Desktop installed
 
 **Setup**:
@@ -25,9 +23,15 @@ git clone https://github.com/rollerollsen/rollerollsen.github.io.git
 cd rollerollsen.github.io
 ```
 
-2. Start the Jekyll server with Docker:
+1. Start the Jekyll server with Docker:
 ```bash
 docker-compose up
+```
+
+or detached:
+
+```bash
+docker-compose up -d
 ```
 
 3. Open your browser and visit:
@@ -39,36 +43,6 @@ The site will automatically rebuild when you make changes to files.
 
 **To stop the server**: Press `Ctrl+C` or run `docker-compose down`
 
-### Option 2: Local Ruby Installation
-
-**Prerequisites**: Ruby 3.1.x (NOT 3.2+)
-
-**Note**: Ruby 3.2+ removed methods that Jekyll/Liquid depend on. Use Ruby 3.1.6 for compatibility with GitHub Pages.
-
-**Setup**:
-
-1. Clone the repository:
-```bash
-git clone https://github.com/rollerollsen/rollerollsen.github.io.git
-cd rollerollsen.github.io
-```
-
-2. Install dependencies:
-```bash
-bundle install
-```
-
-3. Run the local server:
-```bash
-bundle exec jekyll serve
-```
-
-4. Open your browser and visit:
-```
-http://localhost:4000
-```
-
-The site will automatically rebuild when you make changes to files.
 
 ## Customization
 
@@ -158,10 +132,10 @@ git commit -m "Update content"
 
 2. Push to GitHub:
 ```bash
-git push origin main
+git push
 ```
 
-3. Visit your site at `https://rollerollsen.github.io` after 1-2 minutes.
+3. Visit your site at `https://yourusername.github.io` after 1-2 minutes.
 
 ## Structure
 
@@ -186,24 +160,3 @@ git push origin main
 2. Copy all YAML files from `_data/de/` or `_data/en/`
 3. Translate the content
 4. Update `language.js` to support the new language code
-
-## Troubleshooting
-
-### Build fails locally
-- Ensure Ruby and Bundler are installed
-- Run `bundle install` again
-- Check for YAML syntax errors in data files
-
-### Content not updating
-- Stop and restart Jekyll server
-- Clear browser cache
-- Check for typos in YAML files
-
-### Language toggle not working
-- Check browser console for JavaScript errors
-- Ensure all elements have `data-lang` attributes
-- Verify localStorage is enabled in browser
-
-## License
-
-This project is open source and available under the MIT License.
