@@ -1,0 +1,20 @@
+title: Your Name
+description: Portfolio & Projects
+url: 'https://rollerollsen.github.io'
+baseurl: ''
+
+author:
+  name: Your Name
+  email: your.email@example.com
+
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .claude/

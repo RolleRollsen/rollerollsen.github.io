@@ -1,0 +1,17 @@
+services:
+  jekyll:
+    image: ruby:3.1
+    container_name: jekyll-portfolio
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - '4000:4000'
+    command: >
+      bash -c "
+        gem install bundler &&
+        bundle install &&
+        bundle exec jekyll serve --host 0.0.0.0 --force_polling
+      "
+    environment:
+      - JEKYLL_ENV=development

@@ -1,0 +1,14 @@
+- company: Firma / Organisation
+  role: Maschinenbauingenieur
+  period: Jan 2024 - Heute
+  description: Entwicklung mechanischer Komponenten und Systeme. CAD-Konstruktion, FEM-Analyse und Prototyping mit 3D-Druck. Automatisierung von Fertigungsprozessen.
+
+- company: Vorheriges Unternehmen
+  role: Entwicklungsingenieur
+  period: Jun 2022 - Dez 2023
+  description: Produktentwicklung von der Konzeption bis zur Serienreife. Integration von Mikrocontrollern und Sensoren. Technische Dokumentation und Qualitätssicherung.
+
+- company: Hochschule / Universität
+  role: Bachelor/Master Maschinenbau
+  period: Sep 2018 - Mai 2022
+  description: Studium Maschinenbau mit Schwerpunkt Konstruktion und Automatisierung. Abschlussarbeit im Bereich 3D-Druck oder Robotik.

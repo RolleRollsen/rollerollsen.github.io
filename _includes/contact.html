@@ -1,0 +1,20 @@
+<section id='contact' class='section contact'>
+	<div class='container'>
+		<h2 class='section-title fade-in' data-lang='de'>{{ site.data.de.ui.contact_title }}</h2>
+		<h2 class='section-title fade-in' data-lang='en' style='display: none;'>{{ site.data.en.ui.contact_title }}</h2>
+
+		<div class='contact-content fade-in'>
+			<p data-lang='de'>{{ site.data.de.ui.contact_text }}</p>
+			<p data-lang='en' style='display: none;'>{{ site.data.en.ui.contact_text }}</p>
+
+			<div class='social-links'>
+				{% for link in site.data.social %}
+				<a href='{{ link.url }}' class='social-link' target='_blank' rel='noopener noreferrer'>
+					<span class='social-icon'>{{ link.icon }}</span>
+					<span>{{ link.platform }}</span>
+				</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>

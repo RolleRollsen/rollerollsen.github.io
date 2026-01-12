@@ -1,0 +1,14 @@
+- company: Company / Organization
+  role: Mechanical Engineer
+  period: Jan 2024 - Present
+  description: Development of mechanical components and systems. CAD design, FEM analysis, and prototyping with 3D printing. Automation of manufacturing processes.
+
+- company: Previous Company
+  role: Development Engineer
+  period: Jun 2022 - Dec 2023
+  description: Product development from concept to series production. Integration of microcontrollers and sensors. Technical documentation and quality assurance.
+
+- company: University / College
+  role: Bachelor/Master Mechanical Engineering
+  period: Sep 2018 - May 2022
+  description: Mechanical Engineering degree with focus on design and automation. Thesis in 3D printing or robotics.

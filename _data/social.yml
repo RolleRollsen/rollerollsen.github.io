@@ -1,0 +1,15 @@
+- platform: GitHub
+  url: https://github.com/yourusername
+  icon: 🔗
+
+- platform: LinkedIn
+  url: https://linkedin.com/in/yourprofile
+  icon: 💼
+
+- platform: Email
+  url: mailto:your.email@example.com
+  icon: 📧
+
+- platform: Twitter
+  url: https://twitter.com/yourusername
+  icon: 🐦

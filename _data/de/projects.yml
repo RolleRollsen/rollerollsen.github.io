@@ -1,0 +1,42 @@
+- title: 3D-Druck Projekt 1
+  description: Beschreibung deines 3D-Druck Projekts. Welches Problem löst es? Welche Drucktechnik wurde verwendet?
+  detailed_description: Detaillierte Beschreibung des Projekts. Erkläre die Motivation, den Entwicklungsprozess und besondere Herausforderungen. Was waren die technischen Anforderungen? Wie wurde das Problem gelöst?
+  tech:
+    - FDM-Druck
+    - Fusion 360
+    - PrusaSlicer
+  technical_details: Verwendete Druckeinstellungen (Layer-Höhe 0.2mm, Infill 20%), Material (PLA/PETG), Druckdauer ca. 8 Stunden. Nachbearbeitung und Optimierungen erklärt.
+  timeline: Konzept und Design (1 Woche) → Prototyping (2 Wochen) → Testing und Iteration (1 Woche) → Finale Version (2024)
+  images:
+    - /assets/images/placeholder.jpg
+  github: https://github.com/yourusername/3d-print-project1
+  demo: null
+  featured: true
+
+- title: Automatisierungsprojekt
+  description: Arduino/ESP32 basiertes Projekt zur Automatisierung. Beschreibe Hardware, Sensoren und Software.
+  detailed_description: Ausführliche Beschreibung des Automatisierungsprojekts. Welche Hardware wurde verwendet? Wie kommunizieren die Komponenten? Welche Sensoren sammeln Daten? Wie erfolgt die Steuerung?
+  tech:
+    - Arduino
+    - C++
+    - Python
+  technical_details: ESP32 als Hauptcontroller, DHT22 Temperatur/Feuchtigkeitssensor, MQTT für IoT-Kommunikation, Web-Interface für Monitoring. Stromverbrauch optimiert für 24/7 Betrieb.
+  timeline: Hardware-Auswahl (1 Woche) → Prototyp-Entwicklung (3 Wochen) → Software-Implementierung (2 Wochen) → In Betrieb seit März 2024
+  images: []
+  github: https://github.com/yourusername/automation-project
+  demo: null
+  featured: true
+
+- title: CAD-Konstruktion
+  description: Mechanisches Designprojekt mit CAD. Beschreibe die Konstruktion, Anforderungen und Umsetzung.
+  detailed_description: Vollständige Beschreibung der CAD-Konstruktion. Welche Anforderungen mussten erfüllt werden? Wie wurde die Konstruktion optimiert? Welche Normen und Standards wurden beachtet?
+  tech:
+    - SolidWorks
+    - FEM-Analyse
+    - Technische Zeichnungen
+  technical_details: Parametrisches 3D-Modell in SolidWorks erstellt, FEM-Analyse zur Festigkeitsberechnung durchgeführt. Materialselektion basierend auf Belastungsanalyse. Normgerechte technische Zeichnungen nach DIN EN ISO erstellt.
+  timeline: Anforderungsanalyse (2 Wochen) → Konzeptphase (3 Wochen) → Detailkonstruktion (4 Wochen) → Simulation und Optimierung (2 Wochen) → Abgeschlossen Dez 2023
+  images: []
+  github: https://github.com/yourusername/cad-project
+  demo: null
+  featured: false
