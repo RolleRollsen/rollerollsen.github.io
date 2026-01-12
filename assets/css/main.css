@@ -111,6 +111,7 @@ body {
 	align-items: center;
 	text-align: center;
 	padding: 2rem;
+	position: relative;
 }
 
 .hero-content {
@@ -147,6 +148,29 @@ body {
 	background-color: var(--accent-hover);
 	transform: translateY(-2px);
 	box-shadow: 0 10px 20px var(--shadow);
+}
+
+.scroll-hint {
+	position: absolute;
+	bottom: 2rem;
+	left: 50%;
+	transform: translateX(-50%);
+	color: var(--text-muted);
+	text-decoration: none;
+	opacity: 0.6;
+	transition: all 0.3s ease;
+}
+
+.scroll-hint:hover {
+	opacity: 1;
+	color: var(--accent);
+	transform: translateX(-50%) translateY(4px);
+}
+
+.scroll-arrow {
+	font-size: 2rem;
+	display: block;
+	animation: bounce 2s infinite;
 }
 
 .projects-grid {
