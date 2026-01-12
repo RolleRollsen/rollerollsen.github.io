@@ -9,7 +9,3 @@
 - platform: Email
   url: mailto:your.email@example.com
   icon: 📧
-
-- platform: Twitter
-  url: https://twitter.com/yourusername
-  icon: 🐦

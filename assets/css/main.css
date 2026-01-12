@@ -1,3 +1,4 @@
+/*
 :root {
 	--bg-primary: #0f172a;
 	--bg-secondary: #1e293b;
@@ -7,9 +8,24 @@
 	--text-muted: #94a3b8;
 	--accent: #3b82f6;
 	--accent-hover: #2563eb;
-	--shadow: rgba(0, 0, 0, 0.3);
+	--shadow: #0000004D;
 	--border: #334155;
 }
+*/
+
+:root {
+	--bg-primary: #0b1220;
+	--bg-secondary: #121c2f;
+	--bg-card: #16233a;
+	--text-primary: #e6edf5;
+	--text-secondary: #b8c4d6;
+	--text-muted: #7f8fa8;
+	--accent: #4f9cff;
+	--accent-hover: #2f7de8;
+	--border: #263553;
+	--shadow: #0206178C;
+}
+
 
 * {
 	margin: 0;
@@ -44,7 +60,7 @@ body {
 .nav {
 	position: sticky;
 	top: 0;
-	background-color: rgba(15, 23, 42, 0.95);
+	background-color: var(--bg-primary);
 	backdrop-filter: blur(10px);
 	z-index: 1000;
 	border-bottom: 1px solid var(--border);
