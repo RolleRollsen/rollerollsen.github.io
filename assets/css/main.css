@@ -1,4 +1,3 @@
-/*
 :root {
 	--bg-primary: #0f172a;
 	--bg-secondary: #1e293b;
@@ -11,8 +10,8 @@
 	--shadow: #0000004D;
 	--border: #334155;
 }
-*/
 
+/* darker design
 :root {
 	--bg-primary: #0b1220;
 	--bg-secondary: #121c2f;
@@ -25,7 +24,7 @@
 	--border: #263553;
 	--shadow: #0206178C;
 }
-
+*/
 
 * {
 	margin: 0;

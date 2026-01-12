@@ -1,14 +1,19 @@
-- company: Company / Organization
-  role: Mechanical Engineer
-  period: Jan 2024 - Present
-  description: Development of mechanical components and systems. CAD design, FEM analysis, and prototyping with 3D printing. Automation of manufacturing processes.
+- company: Kontron eSystems GmbH (Leipzig)
+  role: Prüftechnologe/Prozessingenieur
+  period: seit Dez 2024
+  description: Testautomatisierung Funktionstests und End-of-Line-Tests, OpenTap, C#, Projektbearbeitung
 
-- company: Previous Company
-  role: Development Engineer
-  period: Jun 2022 - Dec 2023
-  description: Product development from concept to series production. Integration of microcontrollers and sensors. Technical documentation and quality assurance.
+- company: Weiterbildung
+  role: Software Entwickler Data Science und Big Data
+  period: Apr 2024 - Aug 2024
+  description: Python, Data Science, Machine Learning, Data Engineering, Software Engineering
 
-- company: University / College
-  role: Bachelor/Master Mechanical Engineering
-  period: Sep 2018 - May 2022
-  description: Mechanical Engineering degree with focus on design and automation. Thesis in 3D printing or robotics.
+- company: Technische Universität Bergakademie Freiberg
+  role: Wissenschaftlicher Mitarbeiter
+  period: Aug 2021 - Jan 2024
+  description: ZIM-Projekt TurbidEye&colon; KI Mikroplastikerkennung; Kalibration von Multikamerasystemen für 3D-PTV-Messungen, Auswertung Strömungsdaten (POD/DMD), Python, Hardwarenahe Programmierung (Arduino, ESP, C/C++)
+
+- company: Technische Universität Bergakademie Freiberg
+  role: Dipl.-Ing. Maschinenbau
+  period: Okt 2015 - Jul 2021
+  description: Studium Maschinenbau mit Schwerpunkt Elektromobilität & Konstruktionstechnik. Diplomarbeit im Bereich Strömungsforschung&colon; Kalibration von Multikamerasystemen, photogrammetrische Messmethoden und Datenauswertung, Matlab. StuHi&colon; Hard- & Softwareentwicklung für einen kompakten Messaufbau für pyroelektrische Polymere, digitale Holographie.
