@@ -135,4 +135,22 @@
 	.social-link {
 		justify-content: center;
 	}
+
+	.expand-button {
+		width: 2rem;
+		height: 2rem;
+		font-size: 1.25rem;
+	}
+
+	.gallery-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.gallery-grid img {
+		height: 150px;
+	}
+
+	.project-card.expanded {
+		grid-column: 1;
+	}
 }

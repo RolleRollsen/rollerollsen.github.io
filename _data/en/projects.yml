@@ -1,29 +1,42 @@
 - title: 3D Printing Project 1
   description: Description of your 3D printing project. What problem does it solve? Which printing technique was used?
+  detailed_description: Detailed project description. Explain the motivation, development process, and special challenges. What were the technical requirements? How was the problem solved?
   tech:
     - FDM Printing
     - Fusion 360
     - PrusaSlicer
+  technical_details: Print settings used (layer height 0.2mm, infill 20%), material (PLA/PETG), print duration approx. 8 hours. Post-processing and optimizations explained.
+  timeline: Concept and design (1 week) → Prototyping (2 weeks) → Testing and iteration (1 week) → Final version (2024)
+  images:
+    - /assets/images/placeholder.jpg
   github: https://github.com/yourusername/3d-print-project1
   demo: null
   featured: true
 
 - title: Automation Project
   description: Arduino/ESP32 based automation project. Describe hardware, sensors, and software implementation.
+  detailed_description: Comprehensive description of the automation project. What hardware was used? How do the components communicate? Which sensors collect data? How is control implemented?
   tech:
     - Arduino
     - C++
     - Python
+  technical_details: ESP32 as main controller, DHT22 temperature/humidity sensor, MQTT for IoT communication, web interface for monitoring. Power consumption optimized for 24/7 operation.
+  timeline: Hardware selection (1 week) → Prototype development (3 weeks) → Software implementation (2 weeks) → Operational since March 2024
+  images: []
   github: https://github.com/yourusername/automation-project
   demo: null
   featured: true
 
 - title: CAD Design
   description: Mechanical design project with CAD. Describe the construction, requirements, and implementation.
+  detailed_description: Complete description of the CAD design. What requirements had to be met? How was the design optimized? Which norms and standards were followed?
   tech:
     - SolidWorks
     - FEM Analysis
     - Technical Drawings
+  technical_details: Parametric 3D model created in SolidWorks, FEM analysis for strength calculation performed. Material selection based on load analysis. Standard-compliant technical drawings according to DIN EN ISO created.
+  timeline: Requirements analysis (2 weeks) → Concept phase (3 weeks) → Detailed design (4 weeks) → Simulation and optimization (2 weeks) → Completed Dec 2023
+  images: []
   github: https://github.com/yourusername/cad-project
   demo: null
   featured: false
