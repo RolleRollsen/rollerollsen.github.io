@@ -22,7 +22,7 @@
 					{% endif %}
 					{% if project.technical_details %}
 					<div class='project-section'>
-						<h4>Technische Details</h4>
+						<h4>Technisch</h4>
 						<p>{{ project.technical_details }}</p>
 					</div>
 					{% endif %}
@@ -66,7 +66,7 @@
 					{% endif %}
 					{% if project.technical_details %}
 					<div class='project-section'>
-						<h4>Technical Details</h4>
+						<h4>Technical</h4>
 						<p>{{ project.technical_details }}</p>
 					</div>
 					{% endif %}
@@ -83,6 +83,12 @@
 					<div class='project-links'>
 						{% if project.github %}
 						<a href='{{ project.github }}' target='_blank' rel='noopener noreferrer'>GitHub</a>
+						{% endif %}
+                        {% if project.printables %}
+						<a href='{{ project.printables }}' target='_blank' rel='noopener noreferrer'>Printables</a>
+						{% endif %}
+                        {% if project.link %}
+						<a href='{{ project.link }}' target='_blank' rel='noopener noreferrer'>link</a>
 						{% endif %}
 						{% if project.demo %}
 						<a href='{{ project.demo }}' target='_blank' rel='noopener noreferrer'>Demo</a>

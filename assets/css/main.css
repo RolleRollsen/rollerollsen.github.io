@@ -1,3 +1,4 @@
+/*
 :root {
 	--bg-primary: #0f172a;
 	--bg-secondary: #1e293b;
@@ -10,8 +11,8 @@
 	--shadow: #0000004D;
 	--border: #334155;
 }
+*/
 
-/* darker design
 :root {
 	--bg-primary: #0b1220;
 	--bg-secondary: #121c2f;
@@ -24,7 +25,6 @@
 	--border: #263553;
 	--shadow: #0206178C;
 }
-*/
 
 * {
 	margin: 0;
@@ -276,7 +276,7 @@ body {
 .project-modal-backdrop {
 	position: absolute;
 	inset: 0;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.5);
 	backdrop-filter: blur(8px);
 	cursor: pointer;
 }
@@ -305,6 +305,7 @@ body {
 	left: 100%;
 	margin-left: -3rem;
 	margin-top: 1rem;
+    margin-right: 1rem;
 	margin-bottom: -2rem;
 	background: var(--bg-primary);
 	border: 1px solid var(--border);
