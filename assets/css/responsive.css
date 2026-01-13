@@ -136,12 +136,6 @@
 		justify-content: center;
 	}
 
-	.expand-button {
-		width: 2rem;
-		height: 2rem;
-		font-size: 1.25rem;
-	}
-
 	.gallery-grid {
 		grid-template-columns: 1fr;
 	}
@@ -150,7 +144,16 @@
 		height: 150px;
 	}
 
-	.project-card.expanded {
-		grid-column: 1;
+	.project-modal-content {
+		width: 95%;
+		max-height: 90vh;
+	}
+
+	.project-modal-body {
+		padding: 1.5rem;
+	}
+
+	.project-modal-close {
+		margin-left: -2.5rem;
 	}
 }
