@@ -1,80 +1,53 @@
 function initProjectCards() {
 	const projectCards = document.querySelectorAll('.project-card')
+	const modal = document.getElementById('project-modal')
+	const modalBackdrop = modal.querySelector('.project-modal-backdrop')
+	const modalClose = modal.querySelector('.project-modal-close')
+	const modalBody = modal.querySelector('.project-modal-body')
 
 	projectCards.forEach(card => {
-		const expandButton = card.querySelector('.expand-button')
+		card.addEventListener('click', () => {
+			openModal(card, modalBody)
+		})
+	})
 
-		if (expandButton) {
-			expandButton.addEventListener('click', (e) => {
-				e.stopPropagation()
-				toggleCard(card)
-			})
+	modalBackdrop.addEventListener('click', () => {
+		closeModal()
+	})
+
+	modalClose.addEventListener('click', () => {
+		closeModal()
+	})
+
+	document.addEventListener('keydown', (e) => {
+		if (e.key === 'Escape' && modal.classList.contains('active')) {
+			closeModal()
 		}
 	})
 }
 
-async function toggleCard(clickedCard) {
-	const allCards = document.querySelectorAll('.project-card')
-	const isExpanded = clickedCard.classList.contains('expanded')
-	const preview = clickedCard.querySelector('.project-card-preview')
-	const expanded = clickedCard.querySelector('.project-card-expanded')
-	const icon = clickedCard.querySelector('.expand-icon')
+function openModal(card, modalBody) {
+	const modal = document.getElementById('project-modal')
+	const title = card.querySelector('h3').textContent
+	const description = card.querySelector('p').textContent
+	const techStack = card.querySelector('.tech-stack').innerHTML
+	const details = card.querySelector('.project-card-details').innerHTML
 
-	allCards.forEach(card => {
-		if (card !== clickedCard && card.classList.contains('expanded')) {
-			collapseCard(card)
-		}
-	})
+	modalBody.innerHTML = `
+		<h3>${title}</h3>
+		<p>${description}</p>
+		<div class='tech-stack'>${techStack}</div>
+		${details}
+	`
 
-	preview.style.transition = 'opacity 0.2s ease'
-	expanded.style.transition = 'opacity 0.2s ease'
-
-	preview.style.opacity = '0'
-	expanded.style.opacity = '0'
-
-	await new Promise(resolve => setTimeout(resolve, 200))
-
-	if (isExpanded) {
-		clickedCard.classList.remove('expanded')
-		icon.textContent = '↓'
-	} else {
-		clickedCard.classList.add('expanded')
-		icon.textContent = '↑'
-	}
-
-	await new Promise(resolve => setTimeout(resolve, 400))
-
-	preview.style.opacity = '1'
-	expanded.style.opacity = '1'
-
-	if (!isExpanded) {
-		setTimeout(() => {
-			clickedCard.scrollIntoView({
-				behavior: 'smooth',
-				block: 'nearest'
-			})
-		}, 100)
-	}
+	modal.classList.add('active')
+	document.body.style.overflow = 'hidden'
 }
 
-function collapseCard(card) {
-	const preview = card.querySelector('.project-card-preview')
-	const expanded = card.querySelector('.project-card-expanded')
-	const icon = card.querySelector('.expand-icon')
-
-	preview.style.transition = 'opacity 0.2s ease'
-	expanded.style.transition = 'opacity 0.2s ease'
-	preview.style.opacity = '0'
-	expanded.style.opacity = '0'
-
-	setTimeout(() => {
-		card.classList.remove('expanded')
-		icon.textContent = '↓'
-		setTimeout(() => {
-			preview.style.opacity = '1'
-			expanded.style.opacity = '1'
-		}, 400)
-	}, 200)
+function closeModal() {
+	const modal = document.getElementById('project-modal')
+	modal.classList.remove('active')
+	document.body.style.overflow = ''
 }
 
 if (document.readyState === 'loading') {
