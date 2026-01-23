@@ -54,12 +54,22 @@
 		gap: 1rem;
 	}
 
+	.profile-picture {
+		width: 160px;
+		height: 160px;
+		margin-bottom: 1.5rem;
+	}
+
 	.hero h1 {
 		font-size: 2.5rem;
 	}
 
 	.tagline {
 		font-size: 1.25rem;
+	}
+
+    .disclaimer {
+		font-size:0.85rem;
 	}
 
 	.section-title {
@@ -87,7 +97,13 @@
 
 @media (max-width: 640px) {
 	.hero {
-		min-height: 80vh;
+		min-height: 100vh;
+	}
+
+	.profile-picture {
+		width: 140px;
+		height: 140px;
+		margin-bottom: 1.5rem;
 	}
 
 	.hero h1 {
@@ -96,6 +112,10 @@
 
 	.tagline {
 		font-size: 1.125rem;
+	}
+    
+    .disclaimer {
+		font-size: 0.75rem;
 	}
 
 	.nav-links {
@@ -155,5 +175,13 @@
 
 	.project-modal-close {
 		margin-left: -2.5rem;
+	}
+
+	.back-to-top {
+		bottom: 1rem;
+		right: 1rem;
+		width: 2.5rem;
+		height: 2.5rem;
+		font-size: 1.25rem;
 	}
 }

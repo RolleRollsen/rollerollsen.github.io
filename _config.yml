@@ -1,11 +1,11 @@
-title: Your Name
+title: Robert Hardege
 description: Portfolio & Projects
-url: 'https://rollerollsen.github.io'
+url: 'https://roberthardege.de'
 baseurl: ''
 
 author:
-  name: Your Name
-  email: your.email@example.com
+  name: Robert Hardege
+  email: kontakt@roberthardege.de
 
 markdown: kramdown
 theme: null

@@ -1,19 +1,19 @@
 - company: Kontron eSystems GmbH (Leipzig)
-  role: Prüftechnologe/Prozessingenieur
-  period: seit Dez 2024
-  description: Testautomatisierung Funktionstests und End-of-Line-Tests, OpenTap, C#, Projektbearbeitung
+  role: Test Technologist/Process Engineer
+  period: since Dec 2024
+  description: "Test automation for functional tests and end-of-line tests, OpenTap, C#, project management"
 
-- company: Weiterbildung
-  role: Software Entwickler Data Science und Big Data
+- company: Further Education
+  role: Software Developer Data Science and Big Data
   period: Apr 2024 - Aug 2024
-  description: Python, Data Science, Machine Learning, Data Engineering, Software Engineering
+  description: "Python, Data Science, Machine Learning, Data Engineering, Software Engineering"
 
-- company: Technische Universität Bergakademie Freiberg
-  role: Wissenschaftlicher Mitarbeiter
+- company: Freiberg University of Mining and Technology
+  role: Research Associate
   period: Aug 2021 - Jan 2024
-  description: ZIM-Projekt TurbidEye&colon; KI Mikroplastikerkennung; Kalibration von Multikamerasystemen für 3D-PTV-Messungen, Auswertung Strömungsdaten (POD/DMD), Python, Hardwarenahe Programmierung (Arduino, ESP, C/C++)
+  description: "ZIM Project TurbidEye - AI microplastic detection; calibration of multi-camera systems for 3D-PTV measurements, flow data analysis (POD/DMD), Python, hardware-level programming (Arduino, ESP, C/C++)"
 
-- company: Technische Universität Bergakademie Freiberg
-  role: Dipl.-Ing. Maschinenbau
-  period: Okt 2015 - Jul 2021
-  description: Studium Maschinenbau mit Schwerpunkt Elektromobilität & Konstruktionstechnik. Diplomarbeit im Bereich Strömungsforschung&colon; Kalibration von Multikamerasystemen, photogrammetrische Messmethoden und Datenauswertung, Matlab. StuHi&colon; Hard- & Softwareentwicklung für einen kompakten Messaufbau für pyroelektrische Polymere, digitale Holographie.
+- company: Freiberg University of Mining and Technology
+  role: Dipl.-Ing. (Graduate Engineer) Mechanical Engineering
+  period: Oct 2015 - Jul 2021
+  description: "Mechanical Engineering studies with focus on Electromobility & Design Engineering. Diploma thesis in fluid dynamics research: calibration of multi-camera systems, photogrammetric measurement methods and data analysis, Matlab. Student assistant: hardware & software development for a compact measurement setup for pyroelectric polymers, digital holography."

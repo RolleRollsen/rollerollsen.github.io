@@ -71,7 +71,6 @@ Edit `_data/de/projects.yml` (German) and `_data/en/projects.yml` (English):
     - React
   github: https://github.com/yourusername/repo
   demo: https://demo-url.com
-  featured: true
 ```
 
 #### Skills

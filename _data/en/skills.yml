@@ -1,23 +1,23 @@
-- category: Mechanical Engineering & CAD
+- category: Maschinenbau & CAD
   items:
     - SolidWorks
     - Fusion 360
-    - AutoCAD
-    - FEM Analysis
-    - Technical Drawings
+    - KiCAD
+    - Technische Zeichnungen
 
-- category: 3D Printing
+- category: 3D-Druck
   items:
     - FDM/FFF
-    - Slicers (Cura, PrusaSlicer)
-    - 3D Modeling
+    - Slicer (Cura, PrusaSlicer)
     - Prototyping
-    - Printer Optimization
+    - Druckoptimierung
 
-- category: Programming
+- category: Programmierung
   items:
     - Python
+    - C#
     - C/C++
+    - Mikrocontroller (Arduino, ESP32)
+    - Automatisierung (OpenTap)
+    - SQL/NoSQL
     - Git
-    - Microcontrollers (Arduino, ESP32)
-    - Automation
