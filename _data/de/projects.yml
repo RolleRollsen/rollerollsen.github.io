@@ -1,54 +1,27 @@
-- title: 3D-Druck Projekt 1
-  description: Beschreibung deines 3D-Druck Projekts. Welches Problem löst es? Welche Drucktechnik wurde verwendet?
-  detailed_description: Detaillierte Beschreibung des Projekts. Erkläre die Motivation, den Entwicklungsprozess und besondere Herausforderungen. Was waren die technischen Anforderungen? Wie wurde das Problem gelöst?
-  tech:
-    - FDM-Druck
-    - Fusion 360
-    - PrusaSlicer
-  technical_details: Verwendete Druckeinstellungen (Layer-Höhe 0.2mm, Infill 20%), Material (PLA/PETG), Druckdauer ca. 8 Stunden. Nachbearbeitung und Optimierungen erklärt.
-  images:
-    - /assets/images/placeholder.jpg
-  links:
-      - name: GitHub
-        url: https://github.com/user/repo
-      - name: Paper
-        url: https://example.com/paper.pdf
-      - name: Demo
-        url: https://demo.example.com
-  featured: true
+- title: 4D-Strömungsfeldmessung sinkender Kugeln in Newtonschen Fluiden
+  description: Experimentelle Studie mit 3D-Partikel-Tracking-Velocimetrie zur zeitaufgelösten Rekonstruktion des Strömungsfelds. Untersucht wurden Trajektorien und Strömungsdynamik von Kugeln, die bei niedrigen Reynolds-Zahlen (Re 1,6–6) in viskosen Newtonschen Fluiden absinken. Die Forschung zeigt oszillierende Bewegungsmuster der Kugeln und verknüpft diese mithilfe der *Proper Orthogonal Decomposition* (POD) mit Druckschwankungen auf der Kugeloberfläche.
+  detailed_description: |
+    In dieser Studie kamen fortschrittliche experimentelle Methoden zum Einsatz, um gleichzeitig die Kugelbewegung und das umgebende Strömungsfeld zu erfassen. Das Strömungsfeld wurde mittels 3D-Partikel-Tracking-Velocimetrie (3D-PTV) mit dem Shake-the-Box (STB) Algorithmus aufgenommen. Diskrete Tracer-Partikelbahnen wurden über eine feinskalige Rekonstruktion mit der Vortex-in-Cell-Methode (VIC#) in ein Eulersches Gitter überführt. Diese Methode lieferte zusätzlich lokale Druckfeldinformationen durch Lösung der Druck-Poisson-Gleichung.
+    
 
-- title: Automatisierungsprojekt
-  description: Arduino/ESP32 basiertes Projekt zur Automatisierung. Beschreibe Hardware, Sensoren und Software.
-  detailed_description: Ausführliche Beschreibung des Automatisierungsprojekts. Welche Hardware wurde verwendet? Wie kommunizieren die Komponenten? Welche Sensoren sammeln Daten? Wie erfolgt die Steuerung?
+    **POD-Analyse (Mein Beitrag):**
+
+    Die *Proper Orthogonal Decomposition* (POD) wurde eingesetzt, um kohärente Strukturen in der die Kugel umgebenden Strömung zu untersuchen. Der Druck wurde für die POD gewählt, weil Schwankungen in der Kugeltrajektorie durch Druckunterschiede in unmittelbarer Nähe der Kugel verursacht werden.
+
+    Die Leistungsdichtespektrum-Analyse der zeitlichen Koeffizienten der POD zeigte vier verschiedene Regime über die ersten 32 Moden, mit charakteristischen Strouhal-Zahlen.
+
+    Es wurden charakteristische Moden extrahiert, deren Frequenzen gut mit den Oszillationsfrequenzen in den Trajektorien übereinstimmen. Das legt nahe, dass Trajektorieninstabilitäten teilweise auf Druckschwankungen an der Kugeloberfläche zurückzuführen sind. Die räumliche Visualisierung der Moden ermöglicht ein intuitives Verständnis davon, welche Mode zu welcher Oszillation beiträgt.
   tech:
-    - Arduino
-    - C++
     - Python
-  technical_details: ESP32 als Hauptcontroller, DHT22 Temperatur/Feuchtigkeitssensor, MQTT für IoT-Kommunikation, Web-Interface für Monitoring. Stromverbrauch optimiert für 24/7 Betrieb.
-  images: []
+    - Matplotlib
+    - Proper Orthogonal Decomposition
+    - Shake-The-Box
+    - VIC#
+  technical_details:
+  images:
+    - assets/images/4D_Flow_Field_Measurement_Image/4D_Flow_Field_Measurement_Image_1.jpeg
+    - assets/images/4D_Flow_Field_Measurement_Image/4D_Flow_Field_Measurement_Image_2.jpeg
+    - assets/images/4D_Flow_Field_Measurement_Image/4D_Flow_Field_Measurement_Image_3.jpeg
   links:
-      - name: GitHub
-        url: https://github.com/user/repo
-      - name: Paper
-        url: https://example.com/paper.pdf
-      - name: Demo
-        url: https://demo.example.com
-  featured: true
-
-- title: CAD-Konstruktion
-  description: Mechanisches Designprojekt mit CAD. Beschreibe die Konstruktion, Anforderungen und Umsetzung.
-  detailed_description: Vollständige Beschreibung der CAD-Konstruktion. Welche Anforderungen mussten erfüllt werden? Wie wurde die Konstruktion optimiert? Welche Normen und Standards wurden beachtet?
-  tech:
-    - SolidWorks
-    - FEM-Analyse
-    - Technische Zeichnungen
-  technical_details: Parametrisches 3D-Modell in SolidWorks erstellt, FEM-Analyse zur Festigkeitsberechnung durchgeführt. Materialselektion basierend auf Belastungsanalyse. Normgerechte technische Zeichnungen nach DIN EN ISO erstellt.
-  images: []
-  links:
-      - name: GitHub
-        url: https://github.com/user/repo
-      - name: Paper
-        url: https://example.com/paper.pdf
-      - name: Demo
-        url: https://demo.example.com
-  featured: false
+    - name: Paper (Physics of Fluids; Bildquelle)
+      url: https://pubs.aip.org/aip/pof/article/35/12/123341/2931111
