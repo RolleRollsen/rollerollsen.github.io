@@ -8,8 +8,13 @@
   technical_details: Print settings used (layer height 0.2mm, infill 20%), material (PLA/PETG), print duration approx. 8 hours. Post-processing and optimizations explained.
   images:
     - /assets/images/placeholder.jpg
-  github: https://github.com/yourusername/3d-print-project1
-  demo: null
+  links:
+      - name: GitHub
+        url: https://github.com/user/repo
+      - name: Paper
+        url: https://example.com/paper.pdf
+      - name: Demo
+        url: https://demo.example.com
   featured: true
 
 - title: Wireless Data Acquisition
@@ -21,8 +26,13 @@
     - Python
   technical_details: ESP32 as main controller, DHT22 temperature/humidity sensor, MQTT for IoT communication, web interface for monitoring. Power consumption optimized for 24/7 operation.
   images: []
-  github: https://github.com/yourusername/automation-project
-  demo: null
+  links:
+      - name: GitHub
+        url: https://github.com/user/repo
+      - name: Paper
+        url: https://example.com/paper.pdf
+      - name: Demo
+        url: https://demo.example.com
   featured: true
 
 - title: CAD Design
@@ -34,6 +44,11 @@
     - Technical Drawings
   technical_details: Parametric 3D model created in SolidWorks, FEM analysis for strength calculation performed. Material selection based on load analysis. Standard-compliant technical drawings according to DIN EN ISO created.
   images: []
-  github: https://github.com/yourusername/cad-project
-  demo: null
+  links:
+      - name: GitHub
+        url: https://github.com/user/repo
+      - name: Paper
+        url: https://example.com/paper.pdf
+      - name: Demo
+        url: https://demo.example.com
   featured: false

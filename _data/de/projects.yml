@@ -8,8 +8,13 @@
   technical_details: Verwendete Druckeinstellungen (Layer-Höhe 0.2mm, Infill 20%), Material (PLA/PETG), Druckdauer ca. 8 Stunden. Nachbearbeitung und Optimierungen erklärt.
   images:
     - /assets/images/placeholder.jpg
-  github: https://github.com/yourusername/3d-print-project1
-  demo: null
+  links:
+      - name: GitHub
+        url: https://github.com/user/repo
+      - name: Paper
+        url: https://example.com/paper.pdf
+      - name: Demo
+        url: https://demo.example.com
   featured: true
 
 - title: Automatisierungsprojekt
@@ -21,8 +26,13 @@
     - Python
   technical_details: ESP32 als Hauptcontroller, DHT22 Temperatur/Feuchtigkeitssensor, MQTT für IoT-Kommunikation, Web-Interface für Monitoring. Stromverbrauch optimiert für 24/7 Betrieb.
   images: []
-  github: https://github.com/yourusername/automation-project
-  demo: null
+  links:
+      - name: GitHub
+        url: https://github.com/user/repo
+      - name: Paper
+        url: https://example.com/paper.pdf
+      - name: Demo
+        url: https://demo.example.com
   featured: true
 
 - title: CAD-Konstruktion
@@ -34,6 +44,11 @@
     - Technische Zeichnungen
   technical_details: Parametrisches 3D-Modell in SolidWorks erstellt, FEM-Analyse zur Festigkeitsberechnung durchgeführt. Materialselektion basierend auf Belastungsanalyse. Normgerechte technische Zeichnungen nach DIN EN ISO erstellt.
   images: []
-  github: https://github.com/yourusername/cad-project
-  demo: null
+  links:
+      - name: GitHub
+        url: https://github.com/user/repo
+      - name: Paper
+        url: https://example.com/paper.pdf
+      - name: Demo
+        url: https://demo.example.com
   featured: false

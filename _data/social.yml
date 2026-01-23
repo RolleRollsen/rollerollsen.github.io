@@ -1,11 +1,7 @@
-- platform: GitHub
-  url: https://github.com/yourusername
-  icon: 🔗
-
 - platform: LinkedIn
-  url: https://linkedin.com/in/yourprofile
+  url: https://www.linkedin.com/in/robert-hardege/
   icon: 💼
 
 - platform: Email
-  url: mailto:your.email@example.com
+  url: mailto:kontakt@roberthardege.de
   icon: 📧

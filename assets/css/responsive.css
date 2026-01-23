@@ -68,6 +68,10 @@
 		font-size: 1.25rem;
 	}
 
+    .disclaimer {
+		font-size:0.85rem;
+	}
+
 	.section-title {
 		font-size: 1.75rem;
 		margin-bottom: 2rem;
@@ -108,6 +112,10 @@
 
 	.tagline {
 		font-size: 1.125rem;
+	}
+    
+    .disclaimer {
+		font-size: 0.75rem;
 	}
 
 	.nav-links {
